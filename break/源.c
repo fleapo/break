@@ -102,7 +102,7 @@ void main()
 {
 	unsigned char a = 131;
 	unsigned char b = ~a;
-	printf("a= %d\nb= %d\n%~a= %c\n",a,b,~a);
+	printf("a= %d\nb= %d\n ~a= %c\n",a,b,~a);
 	printf("%d",Get1Num1(15));
 }
 int Get1Num1(unsigned int num)
